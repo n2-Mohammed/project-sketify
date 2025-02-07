@@ -1,0 +1,155 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear5"
+		android:layout_width="match_parent"
+		android:layout_height="55dp"
+		android:padding="8dp"
+		android:background="#536DFE"
+		android:orientation="horizontal">
+		<ImageView
+			android:id="@+id/imageview3"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:src="@drawable/ic_arrow_back_white"
+			android:scaleType="center" />
+		<TextView
+			android:id="@+id/textview15"
+			android:layout_width="260dp"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:text="Edit Profile"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_weight="1" />
+		<TextView
+			android:id="@+id/textview16"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:text="SAVE"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_weight="1" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:orientation="vertical"
+		android:layout_weight="1">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:padding="8dp"
+			android:background="#536DFE"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:src="@drawable/default_avatar"
+				android:scaleType="centerInside" />
+			<ImageView
+				android:id="@+id/imageview2"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:background="#FFFFFF"
+				android:src="@drawable/ic_mode_edit_black"
+				android:scaleType="centerInside"
+				android:translationX="40.0dp"
+				android:translationY="-20.0dp" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Name:"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<EditText
+				android:id="@+id/edittext2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="#E8EAF6"
+				android:textSize="16sp"
+				android:textColor="#000000"
+				android:hint="Enter Name"
+				android:textColorHint="#607D8B" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Bio:"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<EditText
+				android:id="@+id/edittext3"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:padding="8dp"
+				android:background="#E8EAF6"
+				android:gravity="top"
+				android:textSize="16sp"
+				android:textColor="#000000"
+				android:hint="Enter About You"
+				android:textColorHint="#607D8B" />
+		</LinearLayout>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginRight="8dp"
+			android:padding="8dp"
+			android:background="#3D5AFE"
+			android:text="Change Password"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF" />
+		<ProgressBar
+			android:id="@+id/progressbar1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:indeterminate="false"
+			style="?android:progressBarStyle" />
+		<TextView
+			android:id="@+id/textview17"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Reset Emal Successfully Sent To mskshafi99\@gmail.com"
+			android:textSize="12sp"
+			android:textColor="#3F51B5" />
+	</LinearLayout>
+</LinearLayout>

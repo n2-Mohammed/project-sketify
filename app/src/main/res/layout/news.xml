@@ -1,0 +1,96 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/base"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="7dp"
+		android:padding="5dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/title_property"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview_header"
+				android:focusable="false"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:paddingLeft="5dp"
+				android:paddingTop="8dp"
+				android:paddingBottom="8dp"
+				android:background="@android:color/transparent"
+				android:src="@drawable/output"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:id="@+id/headline"
+				android:focusable="false"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:text="Welcome!"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#3D5AFE" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/jmg_properry"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview_news"
+				android:focusable="false"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dp"
+				android:layout_marginTop="4dp"
+				android:layout_marginRight="8dp"
+				android:layout_marginBottom="4dp"
+				android:src="@drawable/cb1_3"
+				android:scaleType="fitCenter" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/news_property"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview_news"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dp"
+				android:layout_marginTop="2dp"
+				android:layout_marginRight="8dp"
+				android:padding="8dp"
+				android:text="How are You\? This Is Ther All New Sketify Made By Msk-The Developer "
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/only_for_time"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview_time"
+				android:focusable="false"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="right"
+				android:text="TextView"
+				android:textSize="10sp"
+				android:textColor="#607D8B" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
